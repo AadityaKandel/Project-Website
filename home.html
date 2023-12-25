@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Projects</title>
+<style>
+	
+	html{
+
+		scroll-behavior: smooth;
+	}
+
+	body{
+
+		margin: 0px;
+		background-color: #0d1117;
+	}
+
+	header{
+
+		text-align: left;
+		background-color: black;
+		color: white;
+		padding: 9px;
+		border-color: grey;
+		font-family: sans-serif;
+		font-size: 16px;
+		height: 60px;
+	}
+
+	a{
+
+		margin-left: 14px;
+		padding: 7px;
+		text-decoration: none;
+		font-style: italic;
+		color: white;
+		font-size: 16px;
+	}
+
+	a:hover{
+
+		transition: 0.5s;
+		text-decoration: underline;
+	}
+
+	marquee{
+
+		margin-top: 17px;
+		color: white;
+	}
+
+	img{
+
+		border-radius: 51px;
+
+	}
+
+	.account{
+
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	h4{
+
+		color: white;
+		font-family: sans-serif;
+		font-style: italic;
+	}
+
+	.d1,.d2,.d3,.d4{
+
+		margin: 7px;
+		border: 1px solid white;
+		border-radius: 12px;
+		width: 50%;
+	}
+
+	.d2,.d3,.d4{
+
+		margin-top: 50px;
+	}
+
+	h2,p{
+
+		color: white;
+		font-family: Segoe UI;
+	}
+
+	#visit{
+		color: blue;
+		margin: 0px;
+	}
+
+	.d1:hover,.d2:hover,.d3:hover,.d4:hover{
+
+		transition: 0.5s;
+		border-color: deepskyblue;
+		background-color: #232222;
+	}
+
+	.d1:not(:hover),.d2:not(:hover),.d3:not(:hover),.d4:not(:hover){
+
+		transition: 0.5s;
+		border-color: white;
+	}
+
+	.description{
+
+		text-align: -webkit-center;
+	}
+
+	footer{
+
+		text-align: left;
+		border: 3px solid black;
+		margin-top: 85px;
+	}
+
+	#copyright{
+
+		padding: 15px;
+		margin: 15px;
+		text-decoration: none;
+		font-family: sans-serif;
+		font-size: 20px;
+
+	}
+
+	.d4{
+
+		margin-bottom: 25px;
+	}
+
+	#last1{
+
+		margin-right: 9px;
+	}
+
+	#last{
+
+		height: 48px;
+		width: 48px;
+	}
+
+	#last:hover{
+
+		border: 3px solid deepskyblue;
+	}
+
+	a {
+	  position: relative;
+	  text-decoration: none;
+	  color: white;
+	}
+
+	#down,#up{
+
+		border-radius: 50px;
+		background-color: white;
+	}
+
+
+
+</style>
+
+</head>
+<body id="main">
+
+<div>
+<header>Home:
+<a href="https://www.github.com/AadityaKandel" target="_blank">Website</a>
+<a href="https://www.youtube.com" target="_blank">Youtube</a>
+<a href="https://www.facebook.com" target="_blank">Facebook</a>
+<a onclick="layout()" id="toggle">Toggle Layout</a>
+<a id="toggle" href="#copyright"><img src="down.png" width="40" height="40" align="right" id="down"></a><br>
+<marquee>Facts: An universal rule for every programmer is, "if it works, don't touch it"   Well, if you're gonna touch it, remember to always put a backup cuz I know that you're gonna mess it up.</marquee>
+</header>
+</div>
+
+<hr>
+
+<div class="account">
+
+	<img src="account.jpg">
+	<h4>My Profile</h4>
+
+</div>
+
+<div class="description">
+
+<style id="layout"></style>
+
+<div class="d1" id="d1">
+	
+	<h2>Project Number: 1 (Text-Shuffling Encrypter)</h2>
+	<p>This is my biggest python project yet. It has features filled with my knowledge of python programming. It means that, everything I can do, I added it here. The main objective of this application is to provide encryption and decryption of text files. This app works by providing Text Shuffling method in which it shuffles every text into random ones and saves the file. While opening the same file with any other applications, it looks like the file has nonsense but while opening it from my app, the file will make sense. It's also nearly impossible to decrypt it without knowing the mechanism behind its encryption. For further details visit<a href="https://github.com/AadityaKandel/Text-Shuffling-Encryptor" id="visit" target="_blank">here</a>and for the source code, visit<a href="https://github.com/AadityaKandel/Text-Shuffling-Encrypter-Code-" id="visit" target="_blank">here</a></p>
+
+</div>
+
+<div class="d2" id="d2">
+	
+	<h2>Project Number: 2 (DHBO CONVERTER)</h2>
+	<p>This is my second biggest python project yet. It has as many features as one number system converter app should contain. It's features are made by testing it's output and comparing it to online number system converters and also comparing it to the scientific calculator. After testing it's answers and insuring that they are correct, I uploaded it's codes and also the executable file on Github. You can visit there from Website button above. If you want direct info on this app, visit<a href="https://github.com/AadityaKandel/DHBO-CONVERTER" id="visit" target="_blank">here</a>and for the source code, visit<a href="https://github.com/AadityaKandel/Number-System-DHBO-Converter" id="visit" target="_blank">here</a></p>
+
+</div>
+
+<div class="d3" id="d3">
+	
+	<h2>Project Number: 3 (Wifi Passowrd Viewer)</h2>
+	<p>This is one of my best projects because it has some features that I wanted to add to my own application when I was a child. I wanted some application to automatically display wifi username and password when you open it thus I made it exactly how I wanted. But don't make your hopes too high because it is not meant for hacking wifi networks, this only displays wifi passowrds that were either saved and unintentionally deleted or saved and forgotten. For further details visit<a href="https://github.com/AadityaKandel/Wifi-Password-Viewer-V1.0" id="visit" target="_blank">here</a></p>
+
+</div>
+
+<div class="d4" id="d4">
+	
+	<h2>Project Number: 4 (Final Calculator)</h2>
+	<p>This is my second biggest calculator project yet. From young age, I wanted to make a calculator using a programming language which I achieved with many functionalities after making 4 other applications for the same purpose. It has different kinds of features that a calculator should have. It was inspired by the usual calculators that we use for in our schools. For now, I haven't made it's executable file because it simply doesn't need one but I have provided it's source code from which you can easily use it or change it if you want. For the source code, visit<a href="https://github.com/AadityaKandel/Final-Calculator" id="visit" target="_blank">here</a></p>
+
+</div>
+</div>
+
+<script>
+
+	var a,b,c,d,e;
+
+	function read() {
+
+		a = document.getElementById('d1');
+		b = document.getElementById('d2');
+		c = document.getElementById('d3');
+		d = document.getElementById('d4');
+		e = document.getElementById('toggle');
+
+	}
+
+	function layout() {
+
+		read(); // Calling read() function for variables assignment
+		// Changing the style, width value
+		a.style.width = "95%";
+		b.style.width = "95%";
+		c.style.width = "95%";
+		d.style.width = "95%";
+		// Changing the attribute of toggle button
+		e.setAttribute('onclick','layout1()');
+						
+	}
+
+	function layout1(){
+
+		read();
+		a.style.width = "50%";
+		b.style.width = "50%";
+		c.style.width = "50%";
+		d.style.width = "50%";
+		
+		e.setAttribute('onclick','layout()');
+	}
+
+</script>
+
+</body>
+
+<footer>
+<p id="copyright">
+Copyright &copy; My Project Website 2023<br><br>
+<a href="tel:+9779898981234" id="last1"><img id="last" src="phone.png"></a>
+<a href="mailto:m8011029@outlook.com" type="email" id="last1"><img id="last" src="gmail.png"></a>
+<a href="https://www.github.com/AadityaKandel" id="last1" target="_blank"><img id="last" src="website.png"></a>
+<a id="toggle" href="#toggle"><img src="up.png" width="40" height="40" align="right" id="up"></a>
+</p>
+</footer>
+
+</html>
