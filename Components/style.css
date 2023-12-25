@@ -1,0 +1,155 @@
+html{
+
+	scroll-behavior: smooth;
+}
+
+body{
+
+	margin: 0px;
+	background-color: #0d1117;
+}
+
+header{
+
+	text-align: left;
+	background-color: black;
+	color: white;
+	padding: 9px;
+	border-color: grey;
+	font-family: sans-serif;
+	font-size: 16px;
+	height: 60px;
+}
+
+a{
+
+	margin-left: 14px;
+	padding: 7px;
+	text-decoration: none;
+	font-style: italic;
+	color: white;
+	font-size: 16px;
+}
+
+a:hover{
+
+	transition: 0.5s;
+	text-decoration: underline;
+}
+
+marquee{
+
+	margin-top: 17px;
+	color: white;
+}
+
+img{
+
+	border-radius: 51px;
+
+}
+
+.account{
+
+	text-align: center;
+	margin-top: 10px;
+}
+
+h4{
+
+	color: white;
+	font-family: sans-serif;
+	font-style: italic;
+}
+
+.d1,.d2,.d3,.d4{
+
+	margin: 7px;
+	border: 1px solid white;
+	border-radius: 12px;
+	width: 50%;
+}
+
+.d2,.d3,.d4{
+
+	margin-top: 50px;
+}
+
+h2,p{
+
+	color: white;
+	font-family: Segoe UI;
+}
+
+#visit{
+	color: blue;
+	margin: 0px;
+}
+
+.d1:hover,.d2:hover,.d3:hover,.d4:hover{
+
+	transition: 0.5s;
+	border-color: deepskyblue;
+	background-color: #232222;
+}
+
+.d1:not(:hover),.d2:not(:hover),.d3:not(:hover),.d4:not(:hover){
+
+	transition: 0.5s;
+	border-color: white;
+}
+
+.description{
+
+	text-align: -webkit-center;
+}
+
+footer{
+
+	text-align: left;
+	border: 3px solid black;
+	margin-top: 85px;
+}
+
+#copyright{
+
+	padding: 15px;
+	margin: 15px;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 20px;
+
+}
+
+.d4{
+
+	margin-bottom: 25px;
+}
+
+#last1{
+
+	margin-right: 9px;
+}
+
+#last{
+
+	height: 48px;
+	width: 48px;
+}
+
+#last:hover{
+
+	border: 3px solid deepskyblue;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+}
+
+#down,#up{
+
+	border-radius: 50px;
+	background-color: white;
+}

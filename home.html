@@ -4,168 +4,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>My Projects</title>
-<style>
-	
-	html{
-
-		scroll-behavior: smooth;
-	}
-
-	body{
-
-		margin: 0px;
-		background-color: #0d1117;
-	}
-
-	header{
-
-		text-align: left;
-		background-color: black;
-		color: white;
-		padding: 9px;
-		border-color: grey;
-		font-family: sans-serif;
-		font-size: 16px;
-		height: 60px;
-	}
-
-	a{
-
-		margin-left: 14px;
-		padding: 7px;
-		text-decoration: none;
-		font-style: italic;
-		color: white;
-		font-size: 16px;
-	}
-
-	a:hover{
-
-		transition: 0.5s;
-		text-decoration: underline;
-	}
-
-	marquee{
-
-		margin-top: 17px;
-		color: white;
-	}
-
-	img{
-
-		border-radius: 51px;
-
-	}
-
-	.account{
-
-		text-align: center;
-		margin-top: 10px;
-	}
-
-	h4{
-
-		color: white;
-		font-family: sans-serif;
-		font-style: italic;
-	}
-
-	.d1,.d2,.d3,.d4{
-
-		margin: 7px;
-		border: 1px solid white;
-		border-radius: 12px;
-		width: 50%;
-	}
-
-	.d2,.d3,.d4{
-
-		margin-top: 50px;
-	}
-
-	h2,p{
-
-		color: white;
-		font-family: Segoe UI;
-	}
-
-	#visit{
-		color: blue;
-		margin: 0px;
-	}
-
-	.d1:hover,.d2:hover,.d3:hover,.d4:hover{
-
-		transition: 0.5s;
-		border-color: deepskyblue;
-		background-color: #232222;
-	}
-
-	.d1:not(:hover),.d2:not(:hover),.d3:not(:hover),.d4:not(:hover){
-
-		transition: 0.5s;
-		border-color: white;
-	}
-
-	.description{
-
-		text-align: -webkit-center;
-	}
-
-	footer{
-
-		text-align: left;
-		border: 3px solid black;
-		margin-top: 85px;
-	}
-
-	#copyright{
-
-		padding: 15px;
-		margin: 15px;
-		text-decoration: none;
-		font-family: sans-serif;
-		font-size: 20px;
-
-	}
-
-	.d4{
-
-		margin-bottom: 25px;
-	}
-
-	#last1{
-
-		margin-right: 9px;
-	}
-
-	#last{
-
-		height: 48px;
-		width: 48px;
-	}
-
-	#last:hover{
-
-		border: 3px solid deepskyblue;
-	}
-
-	a {
-	  position: relative;
-	  text-decoration: none;
-	  color: white;
-	}
-
-	#down,#up{
-
-		border-radius: 50px;
-		background-color: white;
-	}
-
-
-
-</style>
-
+<link rel="stylesheet" href="components/style.css">
+<script src="components/script.js"></script>
 </head>
 <body id="main">
 
@@ -176,7 +16,8 @@
 <a href="https://www.facebook.com" target="_blank">Facebook</a>
 <a href="https://github.com/AadityaKandel/Project-Website/blob/main/home.html" target="_blank">Source Code</a>
 <a onclick="layout()" id="toggle">Toggle Layout</a>
-<a id="toggle" href="#copyright"><img src="down.png" width="40" height="40" align="right" id="down"></a><br>
+<a id="toggle" href="#copyright"><img src="icons/down.png" width="40" height="40" align="right" id="down"></a>
+<br>
 <marquee>Facts: An universal rule for every programmer is, "if it works, don't touch it"   Well, if you're gonna touch it, remember to always put a backup cuz I know that you're gonna mess it up.</marquee>
 </header>
 </div>
@@ -185,7 +26,7 @@
 
 <div class="account">
 
-	<img src="account.jpg">
+	<img src="icons/account.jpg">
 	<h4>My Profile</h4>
 
 </div>
@@ -223,55 +64,15 @@
 </div>
 </div>
 
-<script>
-
-	var a,b,c,d,e;
-
-	function read() {
-
-		a = document.getElementById('d1');
-		b = document.getElementById('d2');
-		c = document.getElementById('d3');
-		d = document.getElementById('d4');
-		e = document.getElementById('toggle');
-
-	}
-
-	function layout() {
-
-		read(); // Calling read() function for variables assignment
-		// Changing the style, width value
-		a.style.width = "95%";
-		b.style.width = "95%";
-		c.style.width = "95%";
-		d.style.width = "95%";
-		// Changing the attribute of toggle button
-		e.setAttribute('onclick','layout1()');
-						
-	}
-
-	function layout1(){
-
-		read();
-		a.style.width = "50%";
-		b.style.width = "50%";
-		c.style.width = "50%";
-		d.style.width = "50%";
-		
-		e.setAttribute('onclick','layout()');
-	}
-
-</script>
-
 </body>
 
 <footer>
 <p id="copyright">
 Copyright &copy; My Project Website 2023<br><br>
-<a href="tel:+9779898981234" id="last1"><img id="last" src="phone.png"></a>
-<a href="mailto:m8011029@outlook.com" type="email" id="last1"><img id="last" src="gmail.png"></a>
-<a href="https://www.github.com/AadityaKandel" id="last1" target="_blank"><img id="last" src="website.png"></a>
-<a id="toggle" href="#toggle"><img src="up.png" width="40" height="40" align="right" id="up"></a>
+<a href="tel:+9779898981234" id="last1"><img id="last" src="icons/phone.png"></a>
+<a href="mailto:m8011029@outlook.com" type="email" id="last1"><img id="last" src="icons/gmail.png"></a>
+<a href="https://www.github.com/AadityaKandel" id="last1" target="_blank"><img id="last" src="icons/website.png"></a>
+<a id="toggle" href="#toggle"><img src="icons/up.png" width="40" height="40" align="right" id="up"></a>
 </p>
 </footer>
 
