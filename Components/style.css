@@ -139,7 +139,13 @@ footer{
 
 #last:hover{
 
-	border: 3px solid deepskyblue;
+	transform: scale(1.19);
+	transition: 0.3s;
+}
+
+#last:not(:hover){
+	transform: scale(1);
+	transition: 0.3s;
 }
 
 a {
